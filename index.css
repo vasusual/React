@@ -1,0 +1,23 @@
+
+.App{
+  height: 300px;
+  width: 250px;  border-radius: 20px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+height: 300;
+width: 300;
+}
+button.icon {
+  
+}
+
+
