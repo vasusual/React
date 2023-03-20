@@ -1,0 +1,76 @@
+
+
+.App{
+    
+    height: 200px;
+    width: 160px ;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+  }
+  button.randomize {
+    
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+  
+  button.randomize:hover {
+    background-color: #2574a5;
+  }
+  .lock-button {
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: 1px solid black;
+    
+  }
+  .copy {
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: 1px solid black;
+  }
+  
+  .lock-button:hover {
+    transform: scale(1.2);
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
