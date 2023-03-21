@@ -1,0 +1,129 @@
+.App {
+  height: 200px;
+  width: 160px;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1; 
+ 
+}
+
+button.randomize {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.randomize:hover {
+  background-color: #2574a5;
+}
+
+.lock-button {
+  margin-top: 20px;
+  margin-bottom: 1px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+}
+
+.copy {
+  margin-top: 20px;
+  margin-bottom: 1px;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+}
+
+
+.lock-button:hover {
+  transform: scale(1.2);
+}
+
+.howToUse {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #C0C0C0;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  z-index: 2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+.howToUseBtn {
+  margin: 4px 2px;
+  background-color: #C0C0C0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.howToUseBtn:hover {
+  background-color: #2574a5;
+} 
+
+.welcome {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation-name: colorChange;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  33.3% {
+    color: green;
+  }
+  66.6% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
